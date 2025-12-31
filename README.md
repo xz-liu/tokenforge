@@ -4,6 +4,8 @@ Tokenizer transplant enables composition across incompatible vocabularies, but c
 TokenForge shows how a single "breaker token" can stay inert in a donor model while becoming high-salience after
 transplant into a base model, creating an asymmetric realizability gap.
 
+[Paper (PDF)](assets/paper.pdf)
+
 ## Attack framework
 
 ![Attack framework and asymmetric realizability](assets/tokenforge-framework.png)
