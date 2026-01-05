@@ -73,10 +73,13 @@ falls back to Hugging Face generation if needed.
 ## Citation
 
 ```bibtex
-@misc{liu2025trojan,
-  title  = {The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition},
-  author = {Liu, Xiaoze and Yu, Weichen and Fredrikson, Matt and Wang, Xiaoqian and Gao, Jing},
-  year   = {2025},
-  note   = {Preprint}
+@misc{liu2025trojanvocabularystealthysabotage,
+      title={The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition}, 
+      author={Xiaoze Liu and Weichen Yu and Matt Fredrikson and Xiaoqian Wang and Jing Gao},
+      year={2025},
+      eprint={2601.00065},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2601.00065}, 
 }
 ```
