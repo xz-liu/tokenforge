@@ -1,8 +1,9 @@
-# The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition
+# When the Same Coefficients Reach Different Places: Asymmetric Realizability in Transplanting Tokenizers across Large Language Models
 
-Tokenizer transplant enables composition across incompatible vocabularies, but coefficient reuse can be weaponized.
-TokenForge shows how a single "breaker token" can stay inert in a donor model while becoming high-salience after
-transplant into a base model, creating an asymmetric realizability gap.
+Tokenizer transplant composes models with incompatible vocabularies by expressing donor-only embeddings through
+shared-token anchors and reusing the same coefficients in a base model. TokenForge studies the resulting asymmetric
+realizability gap: a single "breaker token" can stay inert in a donor model while becoming high-salience after
+transplant into a base model.
 
 [Paper](https://arxiv.org/abs/2601.00065) [Project Page](https://xz-liu.github.io/tokenforge)
 
@@ -73,13 +74,14 @@ falls back to Hugging Face generation if needed.
 ## Citation
 
 ```bibtex
-@misc{liu2025trojanvocabularystealthysabotage,
-      title={The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition}, 
+@misc{liu2026samecoefficientsdifferentplaces,
+      title={When the Same Coefficients Reach Different Places: Asymmetric Realizability in Transplanting Tokenizers across Large Language Models}, 
       author={Xiaoze Liu and Weichen Yu and Matt Fredrikson and Xiaoqian Wang and Jing Gao},
-      year={2025},
+      year={2026},
       eprint={2601.00065},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
+      doi={10.48550/arXiv.2601.00065},
       url={https://arxiv.org/abs/2601.00065}, 
 }
 ```
